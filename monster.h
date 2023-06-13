@@ -44,9 +44,17 @@ void monster::Attack(monster & b){// x.Attack(y)
 }
 
 monster::~monster(){
+  cout<<"Monster "<<name<<" is gone."<<endl;
   //indicate which monster is gone
 }
 monster::monster(){
+  /*cout<<"Name: ";
+  cin>>name;
+  cout<<"HP: ";
+  cin>>hp;
+  cout<<"Potion: ";
+  cin>>potion;
+  cout<<endl;*/
  /* Ask for input */
 }
 monster::monster(string n ,int p,int h){

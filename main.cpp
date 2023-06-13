@@ -56,7 +56,7 @@ int main() {
 
   Thanos T;
   int n;
-  cout<<"How many monster?";
+  cout<<"How many monster? ";
   cin>>n;
 
   monster *m=new monster[n]; //2. make sure they have hp
