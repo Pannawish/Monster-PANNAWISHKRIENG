@@ -48,14 +48,14 @@ monster::~monster(){
   //indicate which monster is gone
 }
 monster::monster(){
-  /*cout<<"Name: ";
+  cout<<"Name: ";
   cin>>name;
   cout<<"HP: ";
   cin>>hp;
   cout<<"Potion: ";
   cin>>potion;
-  cout<<endl;*/
- /* Ask for input */
+  cout<<endl;
+ // Ask for input 
 }
 monster::monster(string n ,int p,int h){
 

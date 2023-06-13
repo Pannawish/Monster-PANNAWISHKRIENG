@@ -23,7 +23,7 @@ void Thanos::operator++(){
   stones++;
 }
 Thanos::~Thanos(){
-  cout<<"Thanos is gone"<<endl;
+  cout<<"Thanos is gone."<<endl;
 }
 
 void Thanos::snap_finger(monster m[], int n){
@@ -31,7 +31,7 @@ void Thanos::snap_finger(monster m[], int n){
       else{
         int i;
         for(i=0;i<n;i+=2){
-
+            cout<<"Enough stones!!"<<endl;
             m[i].set_hp(0);
         }
 

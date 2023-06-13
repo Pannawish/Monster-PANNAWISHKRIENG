@@ -66,13 +66,13 @@ int main() {
   add hp to some of them randomly
 */
   int i;
-  for(i=0;i<n;i++){
+  /*for(i=0;i<n;i++){
     cout<<"Monster #"<<i+1<<endl;
     (*(m+i)).set_all();
-  }
+  }*/
   for(i=0;i<n;i++)
       m[i].print();
-  
+  cout<<endl<<"#Saint randomly buffs monsters' HP!"<<endl;
     //saint buff monster's hp randomly for n times
   for(i=0;i<n;i++){
     int k=rand()%n;
@@ -80,6 +80,7 @@ int main() {
   }
   for(i=0;i<n;i++)
       m[i].print();
+  cout<<endl<<"#chaos! Monsters start attacking each other."<<endl;
   //chaos! monster start attacking each other.
 while(1){
  int a=rand()%n;
@@ -89,6 +90,7 @@ while(1){
 
   if ((rand()%100)<10) break;
 }
+  cout<<endl;
   for(i=0;i<n;i++)
       m[i].print();
   
